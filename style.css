@@ -19,6 +19,14 @@ header{
     float: left;
 }
 
+#titulo-home{
+    font-family: Montserrat;
+}   
+
+#conteudo{
+    font-family: Montserrat;
+}
+
 footer{
     text-align: center;
     background-color: #777;
