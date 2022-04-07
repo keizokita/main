@@ -10,7 +10,7 @@ header{
     height: 25px;
 }
 
-#menu{
+.menu{
     font-family: Lato;
     font-size: 15px;
     background-color: #373737;
@@ -19,8 +19,13 @@ header{
     float: left;
 }
 
-#titulo-home{
+.cadastro{
+    border-color: #ffcb00;
+}
+
+.titulo-home{
     font-family: Montserrat;
+    background-color: #ffcb00;
 }   
 
 #conteudo{
@@ -31,5 +36,10 @@ footer{
     text-align: center;
     background-color: #777;
     clear: both;
-    ;
+    color: #C0C0C0;
+}
+
+section.main{
+    background-position: center;
+    background-size: cover;
 }

@@ -12,6 +12,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Montserrat:wght@300&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/ff3229cdc2.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="button.css">
     <title>Projeto Web</title>
 </head>
 <body>
@@ -22,13 +23,17 @@
             <a href="#">Perfil</a>
         </header><!--cabeçalho-->
         <div>
-            <div id="menu">
-                <a href="#">Cadastro</a>
-                <br>
-                <a href="#">Sobre</a>
+            <div class="menu">
+                <div class="cadastro">
+                    <i class="fa-regular fa-address-card"></i>
+                    <button id="button-cadastro">Cadastro</button>
+                </div>
+                <div class="sobre">
+                    <button id="button-sobre">Sobre</button>
+                </div>
             </div><!--menu-->
         </div>
-        <div id="titulo-home">
+        <div class="titulo-home">
             <h2>Home</h2>
         </div><!--titulo-home-->
         <div id="conteudo">
