@@ -8,6 +8,14 @@ header{
     font-size: 15px;
     background-color: #777;
     height: 25px;
+    text-align: right;
+    clear: both;
+    text-align: top;
+}
+
+.logo{
+    text-align: left;
+    clear: both;
 }
 
 .menu{
