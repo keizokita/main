@@ -33,7 +33,29 @@ a{
 }
 
 section{
-    display: flex;
+    display: flex;  
     flex-direction: column;
-    width: 150px;
+    width: 200px;
+    height: 100%;
+    background-color: #373737;
+    position: fixed;
+    left: 0;
+}
+
+.paralelograma {
+    width: 350px;
+    height: 35px;
+    -webkit-transform: skew(-20deg);
+       -moz-transform: skew(-20deg);
+         -o-transform: skew(-20deg);
+    background: #ffcb00;
+    align-items: center;
+    margin-left: 300px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.h3{
+    position: relative;
+    text-align: center;
 }
