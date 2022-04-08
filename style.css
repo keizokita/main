@@ -1,30 +1,42 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    
+
+}
+
+.bloco1{
+    width: 20%;
+    height: 100%;
+    background-color: #777;
+    flex-direction: row;
 }
 
 header{
+    display: flex;
+    justify-content: space-between;
     font-family: Lato;
     font-size: 15px;
-    background-color: #777;
-    height: 25px;
-    text-align: right;
-    clear: both;
-    text-align: top;
+    background-color: #777
 }
 
 .logo{
     text-align: left;
     clear: both;
+    padding: 5px;
 }
 
 .menu{
     font-family: Lato;
     font-size: 15px;
     background-color: #373737;
-    height: 702px;
-    width: 180px;
     float: left;
+    clear: both;
 }
 
 .cadastro{
@@ -33,7 +45,6 @@ header{
 
 .titulo-home{
     font-family: Montserrat;
-    background-color: #ffcb00;
 }   
 
 #conteudo{
@@ -45,6 +56,7 @@ footer{
     background-color: #777;
     clear: both;
     color: #C0C0C0;
+    margin-bottom: 0px;
 }
 
 section.main{

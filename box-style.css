@@ -1,0 +1,39 @@
+body, ul, li, p {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: Lato;
+}
+
+a{
+    text-decoration: none;
+    color: #ffcb00;
+}
+
+.header{
+    background-color: #777;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6px;
+}
+
+.menu{
+    display: flex;
+}
+
+.menu li{
+    margin-left: 10px;
+    font-size: smaller;
+}
+
+.menu li a{
+    display: block;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+}
