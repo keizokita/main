@@ -1,14 +1,20 @@
 /* menu-superior*/
-#home-button{
+.header a{
     border: none;
     color: #ffcb00;
     background-color: transparent;
+    font-size: 13px;
+    font-family: Lato;
+    padding: 2px;
 }
 
 #perfil-button{
     border: none;
     color: #ffcb00;
     background-color: transparent;
+    font-size: 13px;
+    font-family: Lato;
+    padding: 2px;
 }
 /* fim-menu-superio*/
 
