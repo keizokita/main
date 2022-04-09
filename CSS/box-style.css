@@ -2,7 +2,6 @@ body, ul, li, p {
     margin: 0;
     padding: 0;
     list-style: none;
-    font-size: Lato;
 }
 
 a{
@@ -12,13 +11,22 @@ a{
 
 .header{
     background-color: #777;
+    width: auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     padding: 6px;
+    font-family: Lato;
 }
 
+/*icone*/
+.fa-brands{
+    color: #ffcb00;
+    font-size: 25px;
+    display: block;
+}
+/*fim-icone*/
 .menu{
     display: flex;
 }
@@ -33,13 +41,14 @@ a{
 }
 
 section{
-    display: flex;  
     flex-direction: column;
     width: 200px;
     height: 100%;
     background-color: #373737;
     position: fixed;
     left: 0;
+    font-family: Lato;
+    display: flex;
 }
 
 .paralelograma {
@@ -55,4 +64,5 @@ section{
     text-align: center;
     margin-top: 30px;
     justify-content: center;
+    font-family: Lato;
 }

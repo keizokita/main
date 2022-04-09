@@ -1,3 +1,4 @@
+/* menu-superior*/
 #home-button{
     border: none;
     color: #ffcb00;
@@ -9,15 +10,26 @@
     color: #ffcb00;
     background-color: transparent;
 }
+/* fim-menu-superio*/
 
+/* menu-lateral */
 .btn-cad{
     border: 0;
     border-color: #ffcb00;
     background-color: transparent;
+    color: white;
+    padding: 6px;
+    outline-color: #ffcb00;
+    text-align: left;
 }
 
 .btn-sob{
     border: 0;
     border-color: #ffcb00;
     background-color: transparent;
+    color: white;
+    padding: 6px;
+    text-align: left;
 }
+
+/* fim-menu-lateral*/
