@@ -18,10 +18,6 @@
     cursor: pointer;
 }
 
-#perfil-button:hover{
-
-}
-
 /* fim-menu-superio*/
 
 /* menu-lateral */
@@ -31,11 +27,13 @@
     font-size: 14px;
     font-style: none;
     font-family: Lato;
+    box-shadow: inset 0 0 0 0 #737373;
+    transition: ease-out 0.5s;
 }
 
 .menu-lateral a:hover{
-    background-color: #737373;
-    transition: background .3s;
+    box-shadow: inset 300px 0 0 0 #737373;
+    border: 1px solid #ffcb00;
 }
 
 .menu-lateral a:active{
