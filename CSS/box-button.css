@@ -8,7 +8,7 @@
     padding: 2px;
 }
 
-#perfil-button{
+.menu ul{
     border: none;
     color: #ffcb00;
     background-color: transparent;
@@ -17,6 +17,31 @@
     padding: 2px;
     cursor: pointer;
 }
+
+.mini-menu{
+    display: inline-block;
+    padding: 5px 0;
+    text-decoration: none;
+    color: #ffcb00;
+    font-size: 13px;
+    float: right;
+    margin-right: 20px;
+    margin-top: -10px;
+    width: 0;
+    height: 0;
+    border-top: 50px solid #444;
+    border-right: 60px solid #444;
+    border-bottom: 30px solid transparent;
+}
+
+.mini-menu a{
+    
+}
+
+#button-perfil{
+
+}
+
 /* fim-menu-superio*/
 
 /* menu-lateral */
