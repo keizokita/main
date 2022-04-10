@@ -15,27 +15,31 @@
     font-size: 13px;
     font-family: Lato;
     padding: 2px;
+    cursor: pointer;
 }
+
+#perfil-button:hover{
+
+}
+
 /* fim-menu-superio*/
 
 /* menu-lateral */
-.btn-cad{
-    border: 0;
-    border-color: #ffcb00;
-    background-color: transparent;
+.menu-lateral a{
     color: white;
-    padding: 6px;
-    outline-color: #ffcb00;
-    text-align: left;
+    padding: 3px;
+    font-size: 14px;
+    font-style: none;
+    font-family: Lato;
 }
 
-.btn-sob{
-    border: 0;
-    border-color: #ffcb00;
-    background-color: transparent;
-    color: white;
-    padding: 6px;
-    text-align: left;
+.menu-lateral a:hover{
+    background-color: #737373;
+    transition: background .3s;
+}
+
+.menu-lateral a:active{
+    background-color: #444 ;
 }
 
 /* fim-menu-lateral*/
