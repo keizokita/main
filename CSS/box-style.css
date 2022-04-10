@@ -65,12 +65,9 @@ section.menu-lateral{
 }
 
 .corpo{
-    display: flex;
     width: 350px;
     height: 35px;
-    -webkit-transform: skew(-20deg);
-       -moz-transform: skew(-20deg);
-         -o-transform: skew(-20deg);
+    transform: skew(-20deg);
     background: #ffcb00;
     align-items: center;
     margin-left: 300px;
@@ -83,10 +80,14 @@ section.menu-lateral{
 }
 
 .footer{
-    margin-bottom: 0;
+    position: fixed;
+    left: 0;
+    bottom: 0px;
+    width: 100%;
     text-align: center;
+    font-size: 11px;
     clear: both;
     background-color: #777;
     color: #C0C0C0;
-    bottom: 0px;
+    font-family: Arial;
 }

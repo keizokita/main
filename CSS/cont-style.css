@@ -8,8 +8,7 @@
 
 section.sec-conted{
     display: flex;
-    flex-wrap: wrap;
-    box-shadow: 2px 1px;
+    flex-wrap: wrap; 
 }
 
 .conteudo {
@@ -23,7 +22,7 @@ section.sec-conted{
     padding: 5px;
     display: flex;
     align-content: space-around;
-    box-shadow: 2px 1px #888888;
+    box-shadow: 0 0 6px black;
 }
 
 p{
