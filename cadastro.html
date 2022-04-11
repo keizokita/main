@@ -59,34 +59,36 @@
 
     <!--conteudo-->
     <div class="corpo"><h4>Cadastro</h4></div>
-        <section class="sec-conted">
-            <div class="caixa-conteudo">
-                <div class="caixa-topo"></div>
-                    <div class="conteudo">
+
                         <div class="cadastro-body"><!--cadastro-body-->
-                        
-                            <form action="resultado.html" method="post">
-                                <div>
-                                    <label>Nome</label>  
-                                    <input type="text" name="Nome" id="nome" required>
-                                </div>
-                                    
-                                <div>
-                                    <label>E-mail</label>
-                                    <input type="text" name="e-mail" id="email" required>
-                                </div>
-                                    
-                                <div>
-                                    <label>Senha</label>
-                                    <input type="password" name="senha" id="senha" required>
-                                </div>
+                            <fieldset class="f1">
                                 
-                                <div>
-                                    <label>Idade</label>
-                                    <input type="number" name="idade" id="idade">
-                                </div>
-                                
-                                <div>
+                                <form action="resultado.html" method="post">
+                                    <div class="campo">
+                                        <label>Nome</label>  
+                                        <input type="text" name="Nome" id="nome" required>
+                                    </div>
+                                    
+                                    <div class="campo">
+                                        <label>E-mail</label>
+                                        <input type="text" name="e-mail" id="email" required>
+                                    </div>
+                                        
+                                    <div class="campo">
+                                        <label>Senha</label>
+                                        <input type="password" name="senha" id="senha" required>
+                                    </div>
+                                        
+                                    <div class="campo">
+                                        <label>Idade</label>
+                                        <input type="number" name="idade" id="idade">
+                                    </div>
+                                        
+                            </fieldset>
+
+                            <fieldset class="f2">
+
+                                    <div class="campo">
                                     <label>Gênero</label>
                                     <label>
                                         <input type="radio" name="genero" value="masculino">Masculino
@@ -97,20 +99,22 @@
                                     <label>
                                         <input type="radio" name="genero" value="outro">Outro
                                     </label>
-                                </div>
+                                    </div>
                                 
-                                <div>
-                                    <label for="Hobbies"></label>
-                                    <input type="checkbox" name="futebol" id="futebol" value="Futebol">
-                                    <label for="hobbie1">Futebol</label>
-                                    <input type="checkbox" name="empinar-pipa" id="empinar-pipa"
-                                    value="Empinar Pipa">
-                                    <label for="hobbie2">Empinar pipa</label>
-                                    <input type="checkbox" name="video-game" id="video-game" value="Video game">
-                                    <label for="hobbie3">Vídeo game</label>
-                                </div>
-                                
-                                <div>
+                                    <div class="campo">
+                                        <label>Hobbies</label>
+                                        <label>
+                                            <input type="checkbox" name="futebol" value="futebol">Futebol
+                                        </label>
+                                        <label>
+                                            <input type="checkbox" name="pipa" value="pipa">Empinar pipa
+                                        </label>
+                                        <label>
+                                            <input type="checkbox" name="game" value="game">Vídeo game
+                                        </label>
+                                        </div>
+                                    
+                                    <div class="campo">
                                     <label>Tipo sanguíneo:</label>
                                     <select id="tipo-sanguineo">
                                         <option selected disabled value="">Não sei</option>
@@ -119,27 +123,31 @@
                                         <option>AB</option>
                                         <option>O</option>
                                     </select>
-                                </div>
+                                    </div>
+                            </fieldset>                           
                                 
-                                <div>
-                                    <label>Fale sobre você</label>
-                                    <textarea name="sobre-vc" id="sobre-vc" cols="130" rows="5"></textarea>
-                                </div>
-                                
-                                <button class="botoes" type="reset">Apagar</button>
-                                
-                                <button class="botoes" type="submit">Enviar</button>
-                            
-                            </form>
+                            <fieldset class="f3">
+
+                                    <div class="campo">
+                                        <label>Fale sobre você</label><br>
+                                        <textarea name="sobre-vc" id="sobre-vc" cols="130" rows="5"></textarea>
+                                    </div>
+                                    
+                                    <div class="botoes">
+                                        <button type="reset">Apagar</button>
+                                        <button type="submit">Enviar</button>
+                                    </div>
+                                </form>
+                            </fieldset>        
                         </div><!--fim-cadastro-body-->
                     </div>    
                 </div>
             </div>
         </section><!--fim-conteudo-->
-    
-    <div class="footer"><!--rodape-->
-        <footer>Made by Ampliato</footer>
-    </div><!--fim-rodape-->
+        
+        <div class="footer"><!--rodape-->
+            <footer>Made by Ampliato</footer>
+        </div><!--fim-rodape-->
 
 
 </body>
