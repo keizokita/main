@@ -2,8 +2,9 @@
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    width: 1060px;
-    margin-left: 230px;
+    width: 100%;
+    margin-left: 14%;
+    margin-right: 1%;
 }
 
 section.sec-conted{
@@ -13,14 +14,14 @@ section.sec-conted{
 
 .conteudo {
     display: flex;
+    width: 100%; 
+    height: auto;
     border-top: 2px solid #c9c6c6;
     border-left: 2px solid #c9c6c6; 
     border-right: 2px solid #c9c6c6; 
     border-bottom: 1px solid #c9c6c6; 
-    height: 180px;
-    width: 1060px; 
+    margin-left: 30px;
     padding: 5px;
-    display: flex;
     align-content: space-around;
     box-shadow: 1 1 4px black;
 }
