@@ -18,17 +18,7 @@
     cursor: pointer;
 }
 
-.button-perfil{
-    outline: none;
-    color:#ffcb00;
-    background-color: transparent;
-    cursor: pointer;
-    font-size: 13;
-    font-family: Lato;
-    border: none;
-}
-
-/*mini-menu*/
+/*mini-menu
 .mini-menu{
     display: block;
     padding: 6px 0;
@@ -44,7 +34,7 @@
     border-right: 60px solid #444;
     border-bottom: 30px solid transparent;
 
-}
+}*/
 
 .mini-menu a{
     position: absolute;

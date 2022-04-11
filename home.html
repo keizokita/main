@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="CSS/box-style.css">
     <link rel="stylesheet" href="CSS/box-button.css">
     <link rel="stylesheet" href="CSS/cont-style.css">
+    <link rel="stylesheet" href="CSS/mini-menu.css">
     <!--fim-CSS-->
     
     <!--script-->
@@ -34,17 +35,20 @@
             <ul class="menu">
                 <li><a href="home.html">Home</a></li>
                 <div id="linha-vertical"></div>
-                <li><button class="button-perfil">Perfil</button></li>
+                <div class="dropdown" style="float:right;">
+                    <button class="dropbtn">Perfil</button>
+                    <div class="dropdown-content">
+                    <a href="#">Login</a>
+                    <a href="#"><div id="linha-horiz"></div></a>
+                    <a href="#">Sair</a>
+                    </div>
+                </div>
             </ul>
         </nav>    
     </header><!--fim-cabeçalho-->
 
     <!--mini-menu-->
-    <div class="mini-menu" style="float: right;">
-        <a href="#">Login<div id="linha-horiz"></div></a>
-        <br>
-        <a id="sair" href="#">Sair</a>
-    </div><!--fim-mini-menu-->  
+    <!--fim-mini-menu-->  
 
     <!--menu-lateral-->
     <section class="menu-lateral">
