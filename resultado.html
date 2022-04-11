@@ -6,11 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     <!--CSS-->
-    <link rel="stylesheet" href="CSS/box-style.css">
+    <link rel="stylesheet" href="CSS/style.css">
     <link rel="stylesheet" href="CSS/box-button.css">
     <link rel="stylesheet" href="CSS/cont-style.css">
+    <link rel="stylesheet" href="CSS/mini-menu.css">
     <!--fim-CSS-->
     
+    <!--script-->
+    <script defer src="script.js"></script>
+
     <!--links-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -21,7 +25,7 @@
     <!--final-links-->
     
     <script src="https://kit.fontawesome.com/ff3229cdc2.js" crossorigin="anonymous"></script>
-    <title>Home</title>
+    <title>Resultado</title>
 </head>
 <body>
     <!--cabeçalho-->
@@ -31,10 +35,17 @@
             <ul class="menu">
                 <li><a href="home.html">Home</a></li>
                 <div id="linha-vertical"></div>
-                <li><button class="button-perfil">Perfil</button></li>
+                <div class="dropdown" style="float:right;">
+                    <button class="dropbtn">Perfil</button>
+                    <div class="dropdown-content">
+                    <a href="#">Login</a>
+                    <a href="#"><div id="linha-horiz"></div></a>
+                    <a href="#">Sair</a>
+                    </div>
+                </div>
             </ul>
         </nav>    
-    </header><!--fim-cabeçalho-->
+    </header><!--fim-cabeçalho-->  
 
     <!--menu-lateral-->
     <section class="menu-lateral">
