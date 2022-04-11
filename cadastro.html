@@ -62,35 +62,84 @@
         <section class="sec-conted">
             <div class="caixa-conteudo">
                 <div class="caixa-topo"></div>
-                <div class="conteudo">
-
-                    <form action="resultado.html" method="post">
-                        <div>
-                            <label>Nome</label>  
-                            <input type="text" name="Nome" id="nome">
-                        </div>
-                       
-                        <div>
-                            <label>E-mail</label>
-                            <input type="text" name="E-mail" id="email">
-                        </div>
-
-                        <div>
-                            <label>Senha</label>
-                            <input type="password" name="Senha" id="senha">
-                        </div>
-                </form>
-
-                    
-
-                    </p>
+                    <div class="conteudo">
+                        <div class="cadastro-body"><!--cadastro-body-->
+                        
+                            <form action="resultado.html" method="post">
+                                <div>
+                                    <label>Nome</label>  
+                                    <input type="text" name="Nome" id="nome" required>
+                                </div>
+                                    
+                                <div>
+                                    <label>E-mail</label>
+                                    <input type="text" name="e-mail" id="email" required>
+                                </div>
+                                    
+                                <div>
+                                    <label>Senha</label>
+                                    <input type="password" name="senha" id="senha" required>
+                                </div>
+                                
+                                <div>
+                                    <label>Idade</label>
+                                    <input type="number" name="idade" id="idade">
+                                </div>
+                                
+                                <div>
+                                    <label>Gênero</label>
+                                    <label>
+                                        <input type="radio" name="genero" value="masculino">Masculino
+                                    </label>
+                                    <label>
+                                        <input type="radio" name="genero" value="feminino">Feminino
+                                    </label>
+                                    <label>
+                                        <input type="radio" name="genero" value="outro">Outro
+                                    </label>
+                                </div>
+                                
+                                <div>
+                                    <label for="Hobbies"></label>
+                                    <input type="checkbox" name="futebol" id="futebol" value="Futebol">
+                                    <label for="hobbie1">Futebol</label>
+                                    <input type="checkbox" name="empinar-pipa" id="empinar-pipa"
+                                    value="Empinar Pipa">
+                                    <label for="hobbie2">Empinar pipa</label>
+                                    <input type="checkbox" name="video-game" id="video-game" value="Video game">
+                                    <label for="hobbie3">Vídeo game</label>
+                                </div>
+                                
+                                <div>
+                                    <label>Tipo sanguíneo:</label>
+                                    <select id="tipo-sanguineo">
+                                        <option selected disabled value="">Não sei</option>
+                                        <option>A</option>
+                                        <option>B</option>
+                                        <option>AB</option>
+                                        <option>O</option>
+                                    </select>
+                                </div>
+                                
+                                <div>
+                                    <label>Fale sobre você</label>
+                                    <textarea name="sobre-vc" id="sobre-vc" cols="130" rows="5"></textarea>
+                                </div>
+                                
+                                <button class="botoes" type="reset">Apagar</button>
+                                
+                                <button class="botoes" type="submit">Enviar</button>
+                            
+                            </form>
+                        </div><!--fim-cadastro-body-->
+                    </div>    
                 </div>
             </div>
         </section><!--fim-conteudo-->
-        
-        <div class="footer">
-            <footer>Made by Ampliato</footer>
-        </div>
+    
+    <div class="footer"><!--rodape-->
+        <footer>Made by Ampliato</footer>
+    </div><!--fim-rodape-->
 
 
 </body>

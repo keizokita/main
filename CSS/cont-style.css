@@ -3,6 +3,7 @@
     flex-wrap: wrap;
     flex-direction: row;
     width: 100%;
+    height: auto;
     margin-left: 14%;
     margin-right: 1%;
 }
@@ -22,7 +23,6 @@ section.sec-conted{
     border-bottom: 1px solid #c9c6c6; 
     margin-left: 30px;
     padding: 5px;
-    align-content: space-around;
     box-shadow: 1 1 4px black;
 }
 
