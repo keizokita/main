@@ -20,7 +20,7 @@ a{
 }
 
 #linha-vertical{
-    display: flex;
+    display: block;
     height: 20px;
     border-right: 1px solid #ffcb00;
     padding: 5px;

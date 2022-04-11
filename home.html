@@ -11,6 +11,9 @@
     <link rel="stylesheet" href="CSS/cont-style.css">
     <!--fim-CSS-->
     
+    <!--script-->
+    <script defer src="script.js"></script>
+
     <!--links-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -31,15 +34,17 @@
             <ul class="menu">
                 <li><a href="home.html">Home</a></li>
                 <div id="linha-vertical"></div>
-                <li><a id="button-perfil" href="#">Perfil</a></li>
+                <li><button class="button-perfil">Perfil</button></li>
             </ul>
         </nav>    
     </header><!--fim-cabeçalho-->
-    <div class="mini-menu">
-        <a href="#">Login</a>
+
+    <!--mini-menu-->
+    <div class="mini-menu" style="float: right;">
+        <a href="#">Login<div id="linha-horiz"></div></a>
         <br>
-        <a href="#">Sair</a>
-    </div>  
+        <a id="sair" href="#">Sair</a>
+    </div><!--fim-mini-menu-->  
 
     <!--menu-lateral-->
     <section class="menu-lateral">

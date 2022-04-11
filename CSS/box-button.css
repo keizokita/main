@@ -18,29 +18,51 @@
     cursor: pointer;
 }
 
+.button-perfil{
+    outline: none;
+    color:#ffcb00;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 13;
+    font-family: Lato;
+    border: none;
+}
+
+/*mini-menu*/
 .mini-menu{
-    display: inline-block;
-    padding: 5px 0;
+    display: block;
+    padding: 6px 0;
     text-decoration: none;
     color: #ffcb00;
     font-size: 13px;
     float: right;
-    margin-right: 20px;
-    margin-top: -10px;
+    margin-right: 15px;
+    margin-top: -6px;
     width: 0;
     height: 0;
-    border-top: 50px solid #444;
+    border-top: 40px solid #444;
     border-right: 60px solid #444;
     border-bottom: 30px solid transparent;
+
 }
 
 .mini-menu a{
-    
+    position: absolute;
+    margin-top: -45px;
+    padding: 6px 6px;
 }
 
-#button-perfil{
-
+#sair{
+    margin-top: -38px;
 }
+
+#linha-horiz{
+    display: flex;
+    width: 50px;
+    border-bottom: 1px solid #ffcb00;
+    margin-top: 3px;
+}
+/*fim-mini-menu*/
 
 /* fim-menu-superio*/
 
