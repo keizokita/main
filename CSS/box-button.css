@@ -18,24 +18,6 @@
     cursor: pointer;
 }
 
-/*mini-menu
-.mini-menu{
-    display: block;
-    padding: 6px 0;
-    text-decoration: none;
-    color: #ffcb00;
-    font-size: 13px;
-    float: right;
-    margin-right: 15px;
-    margin-top: -6px;
-    width: 0;
-    height: 0;
-    border-top: 40px solid #444;
-    border-right: 60px solid #444;
-    border-bottom: 30px solid transparent;
-
-}*/
-
 .mini-menu a{
     position: absolute;
     margin-top: -45px;
@@ -52,8 +34,6 @@
     border-bottom: 1px solid #ffcb00;
     margin-top: 3px;
 }
-/*fim-mini-menu*/
-
 /* fim-menu-superio*/
 
 /* menu-lateral */
