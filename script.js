@@ -1,10 +1,11 @@
-let open = document.querySelector('.buttonperfil');
-let menu = document.querySelector('.minimenu');
+onclick(() => {
+        window.location.href = "resultado.html";
+    });
 
-open.addEventListener('click', function() {
-    minimenu.style.display = 'none';
-});
 
-close.addEventListener('click', function() {
-    minimenu.style.display = 'block';
-});
+newFunction();
+
+<form method="GET" action="resultado.html">
+     
+     
+</form>

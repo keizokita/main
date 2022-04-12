@@ -9,7 +9,6 @@
     margin-left: 18%;
     margin-right: 0%;
     justify-content: left;
-    align-content: space-around;
 }
 
 .campo{
@@ -34,9 +33,13 @@ fieldset.grupo .campo{
 }
 
 .botoes{
-    flex-direction: row;
     border-radius: 10px;
-    justify-content: space-between;
+}
+
+.submit{
+    display: inline-block;
+    border-radius: 10px;
+    right: 100%;
 }
 
 input, textarea{

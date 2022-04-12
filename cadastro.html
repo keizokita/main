@@ -15,7 +15,9 @@
 
     <!--script-->
     <script src="script.js"></script>
-    
+    <script src="https://kit.fontawesome.com/ff3229cdc2.js" crossorigin="anonymous"></script>
+    <!--fim-script-->
+
     <!--links-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -25,7 +27,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Montserrat:wght@300&display=swap" rel="stylesheet">
     <!--final-links-->
     
-    <script src="https://kit.fontawesome.com/ff3229cdc2.js" crossorigin="anonymous"></script>
     <title>Cadastro</title>
 </head>
 <body>
@@ -63,7 +64,7 @@
                         <div class="cadastro-body"><!--cadastro-body-->
                             <fieldset class="f1">
                                 
-                                <form action="resultado.html" method="post">
+                                <form id="myForm" action="resultado.html" method="get">
                                     <div class="campo">
                                         <label>Nome</label>  
                                         <input type="text" name="Nome" id="nome" required>
@@ -124,7 +125,7 @@
                                         <option>O</option>
                                     </select>
                                     </div>
-                            </fieldset>                           
+                            </fieldset>
                                 
                             <fieldset class="f3">
 
@@ -133,9 +134,9 @@
                                         <textarea name="sobre-vc" id="sobre-vc" cols="130" rows="5"></textarea>
                                     </div>
                                     
-                                    <div class="botoes">
-                                        <button type="reset">Apagar</button>
-                                        <button type="submit">Enviar</button>
+                                    <div class="botoes">   
+                                        <input type="reset" value="Apagar">
+                                        <input type="submit" id="btn-submit" value="Enviar">
                                     </div>
                                 </form>
                             </fieldset>        
