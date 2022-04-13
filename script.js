@@ -3,9 +3,6 @@ onclick(() => {
     });
 newFunction();
 
-var url_resultado = 'resultado.html';
-document.querySelector('.btn_submit').href = url_resultado;
-
 <form method="GET" action="resultado.html">
     <>
     <input type="text" name="Nome"></input>
@@ -16,8 +13,10 @@ document.querySelector('.btn_submit').href = url_resultado;
     <input type="checkbox"></input>
     <select name="tipo-sanguineo"></select>
     <textarea name="sobre-vc"></textarea>
+    <input type="submit" class="btn-submit"></input>
     </>
 
 </form>;
+
 
 
