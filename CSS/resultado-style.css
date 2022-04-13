@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.conteudo-result{
+    display: flex;
+    width: auto;
+    height: auto;
+    border-top: 2px solid #c9c6c6;
+    border-left: 2px solid #c9c6c6; 
+    border-right: 2px solid #c9c6c6; 
+    border-bottom: 1px solid #c9c6c6; 
+    margin-left: 15%;
+    margin-right: 3%;
+    padding: 5px;
+    box-shadow: 1 1 4px black;
+}

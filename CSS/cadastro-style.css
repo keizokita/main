@@ -60,20 +60,3 @@ fieldset{
     font-size: 12px;
     position: fixed;
 }
-
-/*.f1{
-    border-bottom: transparent;
-    width: 100%;
-}
-
-.f2{
-    border-top: transparent;
-    border-bottom: transparent;
-    flex-direction: column;
-    inset: initial;
-}
-
-.f3{
-    border-top: transparent;
-    width: 100%;
-}
