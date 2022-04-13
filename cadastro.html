@@ -62,12 +62,12 @@
     <div class="corpo"><h4>Cadastro</h4></div>
 
         <div class="cadastro-body"><!--cadastro-body-->
-            <fieldset class="f1">
+            <fieldset>
                             
                 <form id="myForm" action="resultado.html" method="get">
                     <div class="campo">
                         <label>Nome</label>  
-                        <input type="text" name="Nome" id="nome" required>
+                        <input type="text" name="nome" id="nome" required>
                     </div>
                                 
                     <div class="campo">
@@ -85,10 +85,6 @@
                         <input type="number" name="idade" id="idade">
                     </div>
                                     
-            <!--</fieldset>
-
-            <fieldset class="f2">-->
-
                     <div class="campo">
                         <label>Gênero</label>
                         <label>
@@ -117,7 +113,7 @@
                                 
                     <div class="campo">
                         <label>Tipo sanguíneo:</label>
-                            <select id="tipo-sanguineo">
+                            <select name="tipo-sanguineo" id="tipo-sanguineo">
                                 <option selected disabled value="">Não sei</option>
                                 <option>A</option>
                                 <option>B</option>
@@ -125,9 +121,6 @@
                                 <option>O</option>
                             </select>
                     </div>
-            <!--</fieldset>
-                            
-            <fieldset class="f3">-->
 
                     <div class="campo">
                         <label>Fale sobre você</label><br>
@@ -136,7 +129,7 @@
                                 
                     <div class="botoes">   
                         <input type="reset" value="Apagar">
-                        <input type="submit" id="btn-submit" value="Enviar">
+                        <input type="submit" class="btn-submit" value="Enviar">
                     </div>
                 </fieldset>
             </form>

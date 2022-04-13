@@ -6,7 +6,7 @@
 
 .cadastro-body{
     display: inline-block;
-    margin-left: 18%;
+    margin-left: 16%;
     margin-right: 0%;
     justify-content: left;
     height: 100%;
@@ -43,7 +43,7 @@ fieldset.grupo .campo{
     right: 100%;
 }
 
-input#nome, #email, #senha, #idade{
+input#nome, #email, #senha, #idade, #sobre-vc{
     display: flex;
     margin-right: 0;
     width: 1180px;
