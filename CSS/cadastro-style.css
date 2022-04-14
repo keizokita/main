@@ -34,19 +34,19 @@ fieldset.grupo .campo{
 }
 
 .botoes{
-    border-radius: 10px;
+    border-radius: 40px;
 }
 
-.submit{
-    display: inline-block;
-    border-radius: 10px;
-    right: 100%;
+#btn-submit{
+    float: right;
+    align-items: flex-end;
+    margin-right: auto;
 }
 
 input#nome, #email, #senha, #idade, #sobre-vc{
     display: flex;
     margin-right: 0;
-    width: 1180px;
+    width: 1220px;
     border: 1px solid;
 }
 

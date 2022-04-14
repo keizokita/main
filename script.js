@@ -2,7 +2,7 @@ const urlParams = new URLSearchParams(window.location.search);
 
 console.log(urlParams);
 
-const nomeParam = urlParams.get("nome");
+let nomeParam = urlParams.get("nome");
 console.log(nomeParam);
 
 const emailParam = urlParams.get("email");
@@ -37,6 +37,13 @@ console.log(sobreParam);
 
 
 
+
+
+
+// function mostrar(m) {
+//     var elemento = document.getElementById("nomeResult");
+//     elemento.
+// }
 
 // const myForm = window.location.search;
 // console.log(myForm);
@@ -94,8 +101,7 @@ console.log(sobreParam);
 //      Function: getUrlParameters
 //      Descrição: Obtem o valor dos parâmetros da URL atual ou URL estática
 //      Author: Tirumal
-//      URL: www.code-tricks.com
-//     */
+
 //     var currLocation = (staticURL.length)? staticURL : window.location.search,
 //         parArr = currLocation.split("?")[1].split("&"),
 //         returnBool = true;
