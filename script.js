@@ -1,8 +1,3 @@
-//onclick(() => {
-//        window.location.href = "resultado.html";
-//    });
-//newFunction();
-
 const myForm = window.location.search;
 console.log(myForm);
 
@@ -36,14 +31,22 @@ const tiposanguineo = urlParams.get('tipo-sanguineo')
 console.log(tiposanguineo);
 
 const sobrevc = urlParams.get('sobre-vc')
-console.log(sobrevc);
+console.log(sobrevc); 
 
-var url_string = "file:///C:/Users/Keizo/Documents/projeto-web/html-css/main/resultado.html?nome=Keizo&email=keizokita1%40gmail.com&senha=123&idade=18&genero=masculino&game=game&tipo-sanguineo=AB&sobre-vc=sobre+keizo"; //window.location.href
 var url = new URL(url_string);
 var c = url.searchParams.get("c");
 console.log(c);
 
-const element = document.getElementsByClassName("cadastro-body");
+var url_string = "file:///C:/Users/Keizo/Documents/projeto-web/html-css/main/resultado.html?nome=Keizo&email=keizokita1%40gmail.com&senha=123&idade=18&genero=masculino&game=game&tipo-sanguineo=AB&sobre-vc=sobre+keizo";
 
-let elements = document.getElementsByName("nome");
-document.getElementById("conteudo-result").innerHTML = nome; 
+function aparecer() {
+    var nome = document.querySelector('nome')
+    var email = document.querySelector('email')
+    var senha = document.querySelector('senha')
+    var idade = document.querySelector('idade')
+    var genero = document.querySelector('genero')
+    var hobbies = document.querySelector('hobbies')
+    var sangue = document.querySelector('tipo-sanguineo')
+    var fale = document.querySelector('sobre-vc')
+
+}
