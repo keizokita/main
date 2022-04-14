@@ -1,52 +1,114 @@
-const myForm = window.location.search;
-console.log(myForm);
+const urlParams = new URLSearchParams(window.location.search);
 
-const urlParams = new URLSearchParams(myForm);
+console.log(urlParams);
 
-const nome = urlParams.get('nome')
-console.log(nome);
+const nomeParam = urlParams.get("nome");
+console.log(nomeParam);
 
-const email = urlParams.get('email')
-console.log(email);
+const emailParam = urlParams.get("email");
+console.log(emailParam);
 
-const senha = urlParams.get('senha')
-console.log(senha);
+const senhaParam = urlParams.get("senha");
+console.log(senhaParam);
 
-const idade = urlParams.get('idade')
-console.log(idade);
+const idadeParam = urlParams.get("idade");
+console.log(idadeParam);
 
-const genero = urlParams.get('genero')
-console.log(genero);
+const generoParam = urlParams.get("genero");
+console.log(generoParam);
 
-const futebol = urlParams.get('futebol')
-console.log(futebol);
+const futebolParam = urlParams.get("futebol");
+console.log(futebolParam);
 
-const pipa = urlParams.get('pipa')
-console.log(pipa);
+const pipaParam = urlParams.get("pipa");
+console.log(pipaParam);
 
-const game = urlParams.get('game')
-console.log(game);
+const gameParam = urlParams.get("game");
+console.log(gameParam);
 
-const tiposanguineo = urlParams.get('tipo-sanguineo')
-console.log(tiposanguineo);
+const sangueParam = urlParams.get("sangue");
+console.log(sangueParam);
 
-const sobrevc = urlParams.get('sobre-vc')
-console.log(sobrevc); 
+const sobreParam = urlParams.get("sobre-vc");
+console.log(sobreParam);
 
-var url = new URL(url_string);
-var c = url.searchParams.get("c");
-console.log(c);
 
-var url_string = "file:///C:/Users/Keizo/Documents/projeto-web/html-css/main/resultado.html?nome=Keizo&email=keizokita1%40gmail.com&senha=123&idade=18&genero=masculino&game=game&tipo-sanguineo=AB&sobre-vc=sobre+keizo";
 
-function aparecer() {
-    var nome = document.querySelector('nome')
-    var email = document.querySelector('email')
-    var senha = document.querySelector('senha')
-    var idade = document.querySelector('idade')
-    var genero = document.querySelector('genero')
-    var hobbies = document.querySelector('hobbies')
-    var sangue = document.querySelector('tipo-sanguineo')
-    var fale = document.querySelector('sobre-vc')
 
-}
+
+
+
+// const myForm = window.location.search;
+// console.log(myForm);
+
+// const urlParams = new URLSearchParams(myForm);
+
+// const nome = urlParams.get('nome')
+// console.log(nome);
+
+// const email = urlParams.get('email')
+// console.log(email);
+
+// const senha = urlParams.get('senha')
+// console.log(senha);
+
+// const idade = urlParams.get('idade')
+// console.log(idade);
+
+// const genero = urlParams.get('genero')
+// console.log(genero);
+
+// const futebol = urlParams.get('futebol')
+// console.log(futebol);
+
+// const pipa = urlParams.get('pipa')
+// console.log(pipa);
+
+// const game = urlParams.get('game')
+// console.log(game);
+
+// const tiposanguineo = urlParams.get('tipo-sanguineo')
+// console.log(tiposanguineo);
+
+// const sobrevc = urlParams.get('sobre-vc')
+// console.log(sobrevc); 
+
+
+// var url_string = "resultado.html?nome=Keizo&email=keizo%40email&senha=123&idade=18&genero=masculino&game=game&tipo-sanguineo=B&sobre-vc=sobre+keizo";
+
+// function aparecer() {
+//     var nome = document.querySelector('nome')
+//     var email = document.querySelector('email')
+//     var senha = document.querySelector('senha')
+//     var idade = document.querySelector('idade')
+//     var genero = document.querySelector('genero')
+//     var hobbies = document.querySelector('hobbies')
+//     var sangue = document.querySelector('tipo-sanguineo')
+//     var fale = document.querySelector('sobre-vc')
+
+//     .nome.innerHTML = $nome
+//}
+
+// function getUrlParameters(parameter, staticURL, decode){
+//     /*
+//      Function: getUrlParameters
+//      Descrição: Obtem o valor dos parâmetros da URL atual ou URL estática
+//      Author: Tirumal
+//      URL: www.code-tricks.com
+//     */
+//     var currLocation = (staticURL.length)? staticURL : window.location.search,
+//         parArr = currLocation.split("?")[1].split("&"),
+//         returnBool = true;
+ 
+//     for(var i = 0; i < parArr.length; i++){
+//          parr = parArr[i].split("=");
+//          if(parr[0] == parameter){
+//              return (decode) ? decodeURIComponent(parr[1]) : parr[1];
+//              returnBool = true;
+//          }else{
+//              returnBool = false;            
+//          }
+//     }
+ 
+//     if(!returnBool) return false;  
+//  }
